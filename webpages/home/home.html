@@ -13,6 +13,16 @@
 
 	<!-- Bootstrap Complete JS CDN-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Get fonts for webpage (Montserrat for Headings, Open Sans for Text/Buttons, Merriweather for Tabs/Etc) 
+	
+		Below are CSS specification for these fonts:
+			font-family: 'Merriweather', serif;
+			font-family: 'Open Sans', sans-serif;
+			font-family: 'Montserrat', sans-serif;
+
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Open+Sans" rel="stylesheet">
 </head> 
 
 <body>
@@ -50,8 +60,8 @@
 									</div>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<button type="button" class="btn btn-default btn">
-										<span class="glyphicon glyphicon-shopping-cart"></span>
+									<button type="button" class="btn btn-default checkout-btn">
+										<span class="glyphicon glyphicon-shopping-cart"></span> Checkout
 									</button>
 								</div>
 								
@@ -91,7 +101,7 @@
 					<div class="carousel-caption">
 						<h1>Geography, Variety, and Time...</h1>
 						<p>The three factors that goes into each and every wine.</p>
-						<p><a class="btn btn-lg btn-primary" href="#" role="button">View our Wines</a></p>
+						<p><a class="btn btn-lg btn-second" href="#" role="button">View our Wines</a></p>
 					</div>
 				</div>
 			</div>
@@ -102,7 +112,7 @@
 					<div class="carousel-caption">
 						<h1>Looking for that "Special" Something?</h1>
 						<p>Our unique assortment of spirits is sure to please.</p>
-						<p><a class="btn btn-lg btn-primary" href="#" role="button">View our Spirits</a></p>
+						<p><a id="btn-style" class="btn btn-lg btn-secondary" href="#" role="button">View our Spirits</a></p>
 					</div>
 				</div>
 			</div>
@@ -113,7 +123,7 @@
 					<div class="carousel-caption">
 						<h1>Looking to buy in Bulk?</h1>
 						<p>Contact us for more info on wholesale transactions</p>
-						<p><a class="btn btn-lg btn-primary" href="#" role="button">Contact Us</a></p>
+						<p><a class="btn btn-lg btn-secondary" href="#" role="button">Contact Us</a></p>
 					</div>
 				</div>
 			</div>
