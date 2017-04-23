@@ -3,6 +3,25 @@
   padding: 2px;
 }
 
+.navbar-top-half {
+  position: relative;
+  left: -15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+
+.navbar-top-half .btn {
+  height: 34px;
+  width: 40px;
+}
+
+.navbar-bottom-half ul li a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
 /* Carousel base class */
 .carousel {
   height: 500px;
