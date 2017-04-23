@@ -55,12 +55,8 @@
   z-index: 10;
 }
 
-.carousel-caption h1 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.carousel-caption p {
-  font-family: 'Open Sans', sans-serif;
+.carousel-caption h1, p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .carousel-caption a {
@@ -69,11 +65,9 @@
 }
 
 .carousel-caption a:hover {
-  color:black;
+  color: #d1d1d1;
 }
 
-
-/* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
   background-color: #777;
@@ -89,6 +83,9 @@
 
 .featured-selection h1 {
 	text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Merriweather', serif;
+  color: #6b1616;
 }
 
 .featured-selection .col-lg-4 {
@@ -98,11 +95,13 @@
 
 .featured-selection h5 {
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .featured-selection .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
@@ -118,15 +117,35 @@
 	color: white;
 }
 
+.email-signup .container h2 {
+  font-family: 'Montserrat', sans-serif
+}
+
+.email-signup .container p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.email-signup .container a {
+  background-color: #6b1616;
+  color: white;
+}
+
+.email-signup .container a:hover {
+  color: #d1d1d1;
+}
+
 .featurette-divider {
   margin: 50px;
 }
 
 .featurette-heading {
+  font-family: 'Merriweather', serif;
   font-weight: 300;
+  color: #6b1616;
 }
 
 .featurette p {
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
