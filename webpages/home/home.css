@@ -12,7 +12,7 @@
   position: relative;
   left: -15px;
   padding-top: 13px;
-  padding-bottom: 13px;
+  padding-bottom: 10px;
 }
 
 .navbar-top-half .btn {
@@ -64,8 +64,12 @@
   color: white;
 }
 
-.carousel-caption a:hover {
+.carousel-caption a:hover{
   color: #d1d1d1;
+}
+
+.carousel-caption a:focus{
+  color: white;
 }
 
 .carousel .item {
@@ -153,6 +157,32 @@
   text-align: center;
 }
 
+.footer {
+  background-color: #f7f6f2;
+}
+
 .footer .row h3 {
 	text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #6b1616;
+}
+
+.footer .list-group {
+  padding: 0px 10px 0px 10px;
+}
+
+.footer .list-group .list-group-item {
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.footer .row p {
+  text-align: left;
+  padding-left: 12px;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
 }
