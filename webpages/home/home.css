@@ -42,6 +42,7 @@
   background-color: #6b1616 !important;
 }
 
+
 /*Carousel Styling*/
 .carousel {
   height: 500px;
@@ -85,6 +86,8 @@
   height: 500px;
 }
 
+
+/*Featured Selection Styling*/
 .featured-selection h1 {
 	text-align: center;
   padding-bottom: 10px;
@@ -109,6 +112,8 @@
   color: black;
 }
 
+
+/*Email Signup Styling*/
 .email-signup {
 	background-image: url("img/signup-banner.jpg");
 	background-repeat: no-repeat;
@@ -138,6 +143,8 @@
   color: #d1d1d1;
 }
 
+
+/*Featurette Styling*/
 .featurette-divider {
   margin: 50px;
 }
@@ -157,6 +164,8 @@
   text-align: center;
 }
 
+
+/*Footer Styling*/
 .footer {
   background-color: #f7f6f2;
 }
@@ -182,7 +191,7 @@
   text-align: left;
   padding-left: 12px;
   font-family: 'Merriweather', sans-serif;
-  font-weight: bold;
+  font-weight: 200;
   font-size: 18px;
   color: black;
 }
