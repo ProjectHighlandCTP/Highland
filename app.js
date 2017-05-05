@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
@@ -19,7 +20,7 @@ app.get('/spirits', function(req,res){
 });
 
 app.get('/policies', function(req,res){
-	res.send('policies!');
+	res.render('policies');
 });
 
 app.get('*', function(req,res){
