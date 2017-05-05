@@ -7,7 +7,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/home', function(req,res){
-	res.send('home!');
+	res.render('home');
 });
 
 app.get('/wines', function(req,res){
