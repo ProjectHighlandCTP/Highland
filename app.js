@@ -16,11 +16,15 @@ app.get('/home', function(req,res){
 });
 
 app.get('/wines', function(req,res){
-	res.send('wines!');
+	res.render('wines', {
+		title: "Wines"
+	});
 });
 
 app.get('/spirits', function(req,res){
-	res.send('spirits!');
+	res.render('spirits', {
+		title: 'Spirits'
+	});
 });
 
 app.get('/policies', function(req,res){
