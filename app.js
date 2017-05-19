@@ -1,14 +1,18 @@
-var express = require('express');
-var app = express();
+var express = require('express'),
+	app = express();
 
 app.set('view engine', 'ejs');
+
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res){
 	res.send('Success!');
 });
 
 app.get('/home', function(req,res){
-	res.render('home');
+	res.render('home', {
+		title: 'Home',
+	});
 });
 
 app.get('/wines', function(req,res){
@@ -20,7 +24,9 @@ app.get('/spirits', function(req,res){
 });
 
 app.get('/policies', function(req,res){
-	res.render('policies');
+	res.render('policies',{
+		title: 'policies'
+	});
 });
 
 app.get('*', function(req,res){

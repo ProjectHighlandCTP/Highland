@@ -115,7 +115,7 @@
 
 /*Email Signup Styling*/
 .email-signup {
-	background-image: url("img/signup-banner.jpg");
+	background-image: url("../images/signup-banner.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

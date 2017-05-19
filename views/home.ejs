@@ -1,84 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>navbar</title>
-
-	<link rel="stylesheet" type="text/css" href="home.css">
-
-	<!-- Bootstrap Complete CSS CDN-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Bootstrap Complete JS CDN-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Below are CSS specification for these fonts:
-			font-family: 'Merriweather', serif;
-			font-family: 'Open Sans', sans-serif;
-			font-family: 'Montserrat', sans-serif;
-
-	-->
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Open+Sans" rel="stylesheet">
+	<% include partials/page/head.ejs %>
+	<link rel="stylesheet" type="text/css" href="stylesheets/home.css">
 </head> 
 
 <body>
 
-	<!-- NAVBAR==================================================-->
-	<div class="BQE-navbar">
-		<nav role="navigation" class="navbar navbar-default">  
-			<div class="navbar-header">
-				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-
-			<div id="navbarCollapse" class="collapse navbar-collapse">
-				<div class="container">
-					<div class="row">
-
-						<div class="col-md-2">
-							<a href="#" class="navbar-left"><img id="logo" src="img/logo.png"></a>
-						</div>
-
-						<div class="col-md-10">
-							<div class="row navbar-top-half">
-								<div class="col-md-10 col-sm-10">
-									<div class="input-group">
-										<span class="input-group-btn">
-											<button class="btn btn-default" type="button">
-												<i class="glyphicon glyphicon-search"></i>
-											</button>
-										</span>
-										<input type="text" class="form-control" placeholder="Search for..." /*>
-									</div>
-								</div>
-								<div class="col-md-2 col-sm-2">
-									<button type="button" class="btn btn-default checkout-btn">
-										<span class="glyphicon glyphicon-shopping-cart"></span> Checkout
-									</button>
-								</div>
-								
-							</div>
-
-							<div class="row navbar-bottom-half">
-								<ul class="nav nav-pills nav-justified">
-									<li class="active"><a href="#">Home</a></li>
-									<li><a href="#">Wine</a></li>
-									<li><a href="#">Spirits</a></li>
-									<li><a href="#">Contact</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-	</div> <!-- ./BEQ-navbar -->
+	<% include partials/page/navbar.ejs %>
 
 
 	<!-- Carousel==================================================-->    
@@ -94,7 +24,7 @@
 		<div class="carousel-inner" role="listbox">
 
 			<div class="item active">
-				<img class="first-slide" src="img/carousel1.jpg" alt="First slide">
+				<img class="first-slide" src="images/carousel1.jpg" alt="First slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Geography, Variety, and Time...</h1>
@@ -105,7 +35,7 @@
 			</div>
 
 			<div class="item">
-				<img class="second-slide" src="img/carousel2.jpg" alt="Second slide">
+				<img class="second-slide" src="images/carousel2.jpg" alt="Second slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Looking for that "Special" Something?</h1>
@@ -116,7 +46,7 @@
 			</div>
 
 			<div class="item">
-				<img class="third-slide" src="img/carousel3.jpg" alt="Third slide">
+				<img class="third-slide" src="images/carousel3.jpg" alt="Third slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Looking to buy in Bulk?</h1>
@@ -159,21 +89,21 @@
 			<h1>Featured Selection:</h1>
 
 			<div class="col-lg-4">
-				<img src="img/selection1.jpg" alt="Generic placeholder image" width="150" height="150">
+				<img src="images/selection1.jpg" alt="Generic placeholder image" width="150" height="150">
 				<h5>Sterling Vineyard's Winter Collection <br>Cabernet Sauvignon (2004)</h5>
 				<p>A solid red wine from Sterling Vineyards with a smooth aftertaste and hints of oak and hickory.</p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div><!-- /.col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img src="img/selection2.jpg" alt="Generic placeholder image" width="150" height="150">
+				<img src="images/selection2.jpg" alt="Generic placeholder image" width="150" height="150">
 				<h5>Alaskan Distillery's<br>Smoked Salmon Flavored Vodka</h5>
 				<p>The bold flavors of the salmon permeates the vodka, making it a great drink for brunches.</p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div><!-- /.col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img src="img/selection3.png" alt="Generic placeholder image" width="150" height="150">
+				<img src="images/selection3.png" alt="Generic placeholder image" width="150" height="150">
 				<h5>Townshend's <br>Tea Spirit No.5</h5>
 				<p>This liqueur is packed with complex flavors from Lapsang black tea, rooibos, vanilla and honey.</p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -207,7 +137,7 @@
 				<p class="lead">At BEQ Wine & Liquors, we can help you organize your event and recommend some of our special offerings (with discounts applied). Call us at 1-337-867-5309 for more details.</p>
 			</div>
 			<div class="col-md-5">
-				<img src="img/featurette1.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/300x200/auto" alt="Generic placeholder image">
+				<img src="images/featurette1.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/300x200/auto" alt="Generic placeholder image">
 			</div>
 		</div>
 
@@ -219,7 +149,7 @@
 				<p class="lead">Picking out the right wine can be a daunting task, and we're happy to offer our tasting notes expert opinion. Visit the store location and our friendly staff will assist you.</p>
 			</div>
 			<div class="col-md-5 col-md-pull-7">
-				<img src="img/featurette2.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/300x200/auto" alt="Generic placeholder image">
+				<img src="images/featurette2.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/300x200/auto" alt="Generic placeholder image">
 			</div>
 		</div>
 
@@ -231,47 +161,15 @@
 				<p class="lead">There's a drink for everyone, and finding it is a personal quest for many of our customers. Check out some of our "tried-and-true" recipes to help you get started!</p>
 			</div>
 			<div class="col-md-5">
-				<img src="img/featurette3.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/300x200/auto" alt="Generic placeholder image">
+				<img src="images/featurette3.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/300x200/auto" alt="Generic placeholder image">
 			</div>
 		</div>
 
 		<hr class="featurette-divider">
 	</div>
 
+	<% include partials/page/footer.ejs %>
+	<% include partials/page/jsdefault.ejs %>
 
-	<!-- Footer==================================================-->
-	<footer class="footer">
-
-		<div class="container">
-
-			<div class="row col-md-4">
-				<h3>Info</h3>
-				<div class="list-group">
-					<button type="button" class="list-group-item list-group-item-action">Visit our Blog</button>
-					<button type="button" class="list-group-item list-group-item-action">View Catalog</button>
-					<button type="button" class="list-group-item list-group-item-action">See Policies</button>
-				</div>
-			</div>
-
-			<div class="row col-md-4">
-				<h3>Account</h3>
-				<div class="list-group">
-					<button type="button" class="list-group-item list-group-item-action">Login</button>
-					<button type="button" class="list-group-item list-group-item-action">Create Account</button>
-					<button type="button" class="list-group-item list-group-item-action">Order History</button>
-				</div>
-			</div>
-
-			<div class="row col-md-4">
-				<h3>Store Hours and Directions</h3>
-				<p>BQE Wine & Liquors <br> 504 Meeker Ave <br> Brooklyn, NY 11222 <br> (718) 389-3833</p>
-			</div>
-
-		</div>
-	</footer>
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>         
