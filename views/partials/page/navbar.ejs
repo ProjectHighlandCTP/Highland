@@ -39,10 +39,10 @@
 
 							<div class="row navbar-bottom-half">
 								<ul class="nav nav-pills nav-justified">
-									<li class="active"><a href="#">Home</a></li>
-									<li><a href="#">Wine</a></li>
-									<li><a href="#">Spirits</a></li>
-									<li><a href="#">Contact</a></li>
+									<li <% if (title === 'Home') { %>class="active" <% } %> ><a href="/home">Home</a></li>
+									<li <% if (title === 'Wines') { %>class="active" <% } %> ><a href="/wines">Wines</a></li>
+									<li <% if (title === 'Spirits') { %>class="active" <% } %> ><a href="/spirits">Spirits</a></li>
+									<li <% if (title === 'Contact') { %>class="active" <% } %> ><a href="/contact">Contact</a></li>
 								</ul>
 							</div>
 						</div>
